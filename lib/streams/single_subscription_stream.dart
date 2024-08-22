@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 
 void main() {
-  //singleSubscription1();
-  singleSubscription2();
+  singleSubscription1();
+  //singleSubscription2();
 }
 
 singleSubscription1() {
