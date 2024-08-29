@@ -16,6 +16,8 @@ class MainScreenState extends State<MainScreen> {
     var children = <Widget>[];
 
     children.add(bindNewItem(title: 'Filter', routeName: AppRouter.filter));
+    children.add(bindNewItem(
+        title: 'Widget Binding Observer', routeName: AppRouter.lifeCycle));
 
     return SafeArea(
       child: Scaffold(
